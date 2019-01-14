@@ -1,98 +1,87 @@
 {
-	"pages": [
-		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "首页"
-			}
-		},
-		{
-			"path": "pages/beans/beans",
-			"style": {
-				"navigationBarTitleText": "买豆"
-			}
-		},
-		{
-			"path": "pages/help/help",
-			"style": {
-				"navigationBarTitleText": "帮助"
-			}
-		},
-		{
-			"path": "pages/mine/mine",
-			"style": {
-				"navigationBarTitleText": "我的",
-				"app-plus": {
-					"titleNView": {
-						"type": "transparent"
-					}
-				}
-			}
-		},
-		{
-			"path": "pages/component/setting/setting"
-		},
-		{
-			"path": "pages/personalCenter/personalCenter",
-			"style": {}
-		},
-		{
-			"path": "pages/productList/productList",
-			"style": {}
-		},
-		{
-			"path": "pages/addressList/addressList",
-			"style": {}
-		}, {
-			"path": "components/uni-media-list/uni-media-list",
-			"style": {}
-		}, {
-			"path": "components/uni-tab-bar/uni-tab-bar",
-			"style": {}
-		}, {
-			"path": "components/uni-tab-content/uni-tab-content",
-			"style": {}
-		}, {
-			"path": "components/uni-tabs/uni-tabs",
-			"style": {}
-		}
-],
-"globalStyle": {
-	"navigationBarTextStyle": "white",
-	"navigationBarTitleText": "小冠优选",
-	"navigationBarBackgroundColor": "#ec6737",
-	"backgroundColor": "#ec6737"
-},
-"tabBar": {
-	"color": "#8f8f94",
-	"selectedColor": "#ec6737",
-	"borderStyle": "black",
-	"backgroundColor": "#ffffff",
-	"list": [{
-			"pagePath": "pages/index/index",
-			"iconPath": "static/tabBar/well_icon.png",
-			"selectedIconPath": "static/tabBar/well_icon_hover.png",
-			"text": "优选"
-		},
-		{
-			"pagePath": "pages/productList/productList",
-			"iconPath": "static/tabBar/beans_icon.png",
-			"selectedIconPath": "static/tabBar/beans_icon-hover.png",
-			"text": "商城"
-		},
-		{
-			"pagePath": "pages/help/help",
-			"iconPath": "static/tabBar/help_icon.png",
-			"selectedIconPath": "static/tabBar/help_icon_hover.png",
-			"text": "帮助"
-		},
-		{
-			"pagePath": "pages/personalCenter/personalCenter",
-			"iconPath": "static/tabBar/mine_icon.png",
-			"selectedIconPath": "static/tabBar/mine_icon_hover.png",
-			"text": "我的"
-		}
-	]
-}
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/index/index",
+            "style" : {
+                "navigationBarTitleText" : "首页"
+            }
+        },
+        {
+            "path" : "pages/beans/beans",
+            "style" : {
+                "navigationBarTitleText" : "买豆"
+            }
+        },
+        {
+            "path" : "pages/help/help",
+            "style" : {
+                "navigationBarTitleText" : "帮助"
+            }
+        },
+        {
+            "path" : "pages/mine/mine",
+            "style" : {
+                "navigationBarTitleText" : "我的",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "transparent"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/component/setting/setting"
+        },
+        {
+            "path" : "pages/personalCenter/personalCenter",
+            "style" : {}
+        },
+        {
+            "path" : "pages/productList/productList",
+            "style" : {}
+        },
+        {
+            "path" : "pages/addressList/addressList",
+            "style" : {}
+        }
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "white",
+        "navigationBarTitleText" : "小冠优选",
+        "navigationBarBackgroundColor" : "#ec6737",
+        "backgroundColor" : "#ec6737"
+    },
+    "tabBar" : {
+        "color" : "#8f8f94",
+        "selectedColor" : "#ec6737",
+        "borderStyle" : "black",
+        "backgroundColor" : "#ffffff",
+        "list" : [
+            {
+                "pagePath" : "pages/index/index",
+                "iconPath" : "static/tabBar/well_icon.png",
+                "selectedIconPath" : "static/tabBar/well_icon_hover.png",
+                "text" : "优选"
+            },
+            {
+                "pagePath" : "pages/productList/productList",
+                "iconPath" : "static/tabBar/beans_icon.png",
+                "selectedIconPath" : "static/tabBar/beans_icon-hover.png",
+                "text" : "商城"
+            },
+            {
+                "pagePath" : "pages/help/help",
+                "iconPath" : "static/tabBar/help_icon.png",
+                "selectedIconPath" : "static/tabBar/help_icon_hover.png",
+                "text" : "帮助"
+            },
+            {
+                "pagePath" : "pages/personalCenter/personalCenter",
+                "iconPath" : "static/tabBar/mine_icon.png",
+                "selectedIconPath" : "static/tabBar/mine_icon_hover.png",
+                "text" : "我的"
+            }
+        ]
+    }
 }
