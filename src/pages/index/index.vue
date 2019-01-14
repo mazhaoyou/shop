@@ -1,40 +1,47 @@
 <template>
-	<view class="content">
-        <image class="logo" src="../../static/logo.png"></image>
-		<view>
-            <text class="title">{{title}}</text>
-        </view>
+	<view>
+    <swiper class="swiper" :indicator-dots="indicatorDots" :autoplay="autoplay" :circular="circular" :interval="interval" :duration="duration">
+	<swiper-item>
+		<view class="img-view">
+		<image src="../../static/banner/banner_min_1.png"></image>
+		</view>
+	</swiper-item>
+	<swiper-item>
+		<view class="img-view">
+		<image src="../../static/banner/banner_min_2.png"></image>
+		</view>
+	</swiper-item>
+	<swiper-item>
+		<view class="img-view">
+		<image src="../../static/banner/banner_min_3.png" mode=""></image>
+		</view>
+	</swiper-item>
+   </swiper>
 	</view>
 </template>
 
 <script>
-	export default {
-		data() {
-			return {
-				title: 'Hello'
-			}
-		},
-		onLoad() {
-
-		},
-		methods: {
-
-		}
-	}
+export default {
+	data() {
+		return {
+			indicatorDots: true,
+			autoplay: true,
+			interval: 2000,
+			duration: 500,
+			circular: true
+		};
+	},
+	onLoad() {},
+	methods: {}
+};
 </script>
 
+
 <style>
-	.content {
-		text-align: center;
-		height: 400upx;
-	}
-    .logo{
-        height: 200upx;
-        width: 200upx;
-        margin-top: 200upx;
-    }
-	.title {
-		font-size: 36upx;
-		color: #8f8f94;
-	}
+image,
+swiper,
+.img-view {
+	width: 100%;
+	height: 340upx;
+}
 </style>
